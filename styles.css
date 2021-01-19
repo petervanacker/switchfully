@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+	background-color: #ded4d3;
+}
+
+.page {
+	max-width: 1400px;
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Catamaran', sans-serif;
+}
+
+a:link, a:visited, a:active {
+	font-family: 'Marienda', cursive;
+  text-decoration: none;
+	text-shadow: 1px 1px white;
+	color: #000;
+	padding: 0;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+ul {
+	list-style-type: none;
+}
+
+nav {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Merienda', cursive;
+}
+
+h2 {
+	color: #a2311c
+}
+
+header {
+  width: 100%;
+  background: url(images/peterlampstare.jpg) no-repeat center center;
+  background-size: cover;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.20);
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: flex-start;
+
+}
+
+.bannertext {
+	display: block;
+	font-family: 'Merienda', cursive;
+	font-size: 5em;
+	color: lightgrey;
+	margin: 0;
+	text-align: center;
+	text-shadow: 2px 2px black;
+}
+
+.menu{
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+
+.menuitem {
+	width: 200px;
+	text-align: center;
+	font-size: 2.4em;
+	background-color: #ded4d3;
+				-webkit-border-radius: 10px 10px 0 0;
+				-moz-border-radius: 10px 10px 0 0;
+				border-radius: 10px 10px 0 0;
+}
+.inactive {
+	background-color: darkgrey;
+}
+
+.menuitem:hover {
+	background-color: #a2311c;
+				-webkit-border-radius: 10px 10px 0 0;
+				-moz-border-radius: 10px 10px 0 0;
+				border-radius: 10px 10px 0 0;
+}
+
+.wrapper{
+	margin: 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap-reverse;
+}
+
+.numbers{
+	flex:1;
+	min-width: 245px;
+	margin: 60px 10px 0 10px;
+	padding: 35px 30px 40px 30px;
+	text-align: right;
+	color: white;
+	font-family: 'Raleway';
+	font-size: 1.2em;
+	background-color: #424242;
+		-webkit-border-radius: 40px 10px 40px 10px;
+		-moz-border-radius: 40px 10px 40px 10px;
+	border-radius: 40px 10px 40px 10px;
+}
+.numbers > h2{
+	text-align: center;
+	color: white;
+}
+
+
+.main{
+	flex: 100;
+	min-width: 73%;
+	margin-top: 20px;
+	padding-top: 20px;
+	background-color: #e0e0e0;
+	-webkit-border-radius: 40px 10px 40px 10px;
+	-moz-border-radius: 40px 10px 40px 10px;
+	border-radius: 40px 10px 40px 10px;
+	box-shadow: 1px 1px darkgrey;
+	overflow-y: auto;
+}
+
+article > p {
+	text-align: justify;
+	margin: 20px;
+}
+article > h2 {
+	margin: 20px;
+}
+
+figure{
+	float: left;
+	width: 33%;
+	margin: 20px 20px 0 20px ;
+	overflow: hidden;
+	text-align: center;
+}
+.right{
+	float: right;
+}
+
+.intro{
+	font-family: "Raleway",cursive;
+	font-size: 1.2em;
+}
+
+footer{
+  position:relative;
+	display:flex;
+	max-width: 1400px;
+  bottom: 0px;
+  width: 100%;
+  margin: 0 auto;
+  height: 130px;
+  padding: 20px;
+  font-size: 14px;
+  text-align: center;
+  color: #faebd7;
+  background-color: #424242;
+	overflow: hidden;
+}
+
+.vl{
+	border-left: 1px solid #faebd7;
+	margin: 0 2px 0 10px;
+}
+
+.quote{
+	overflow-y: auto;
+}
